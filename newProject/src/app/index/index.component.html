@@ -1,3 +1,143 @@
-<p>
-  index works!
-</p>
+<div id="headerimg">
+  <img src="./../../assets/images/index/zhezhao2.png" alt="">
+</div>
+
+<!-- Featured -->
+<div id="featured">
+  <div class="container">
+    <header>
+      <h1>服务流程</h1>
+    </header>
+    <div class="row">
+      <div *ngFor="let item of steps">
+        <div class="fl">{{item.id}}</div>
+        <div class="fr">{{item.name}}</div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+<!-- Main -->
+<div id="main">
+  <div id="content" class="container">
+    <header>
+      <h1>案例精选</h1>
+    </header>
+    <div class="row">
+      <a href=""><img src="./../../assets/images/index/c360%20-1.png" alt="">
+        <div class="imgUp" id="imgUp1"><p>你比月亮还要美--温州草坪花房求婚</p></div>
+      </a>
+
+      <a href=""><img src="./assets/images/index/c360%20-2.png" alt="" >
+        <div class="imgUp" id="imgUp2"><p class="big">嫁给爱情</p></div></a>
+
+      <a href=""><img src="./assets/images/index/c360%20-3.png" alt="">
+        <div class="imgUp" id="imgUp3"><p class="big">幸福无限供应</p></div></a>
+
+    </div>
+
+    <div class="row">
+      <a href=""><img src="./assets/images/index/c360-4.png" alt="">
+        <div class="imgUp" id="imgUp4"><p class="big" style="color: orange">做你的依靠</p></div></a>
+      <a href=""><img src="./assets/images/index/c360%20-5.png" alt="">
+        <div class="imgUp" id="imgUp5"><p class="big" style="color: deeppink">一同体验欢欣</p></div></a>
+      <a href=""><img src="./assets/images/index/c360%20-6.png" alt="">
+        <div class="imgUp" id="imgUp6"><p class="big" style="color: red">我一直爱你</p></div></a>
+    </div>
+    <button type="button" >查看更多</button>
+
+  </div>
+</div>
+
+<!--service-->
+
+<div id="service">
+    <header>
+      <h1>服务套餐</h1>
+    </header>
+    <div class="row">
+        <a href="#" ><img src="./assets/images/index/fw-1.png" alt="">
+          <div class="imgBigUp" id="imgBigUp1">
+          <div class="UpText">
+            <h4>[时空尽头] 户外创意气球求婚套餐</h4>
+            <p class="orange">￥21888起</p>
+            <p class="fz14">适合场景：气球、草坪、广场、公园</p>
+            <p class="fz14">开通地区：全国各地区、日韩、东南亚、欧美</p>
+          </div>
+        </div></a>
+
+        <a href="#" ><img src="./assets/images/index/fw-2.png" alt="">
+          <div class="imgBigUp" id="imgBigUp2">
+          <div class="UpText">
+            <h4>[时空尽头] 户外创意气球求婚套餐</h4>
+            <p class="orange">￥21888起</p>
+            <p class="fz14">适合场景：气球、草坪、广场、公园</p>
+            <p class="fz14">开通地区：全国各地区、日韩、东南亚、欧美</p>
+          </div>
+        </div></a>
+
+    </div>
+
+    <div class="row">
+
+        <a href="#" ><img src="./assets/images/index/fw-3.png" alt=""><div class="imgBigUp" id="imgBigUp3">
+          <div class="UpText">
+            <h4>[时空尽头] 户外创意气球求婚套餐</h4>
+            <p class="orange">￥21888起</p>
+            <p class="fz14">适合场景：气球、草坪、广场、公园</p>
+            <p class="fz14">开通地区：全国各地区、日韩、东南亚、欧美</p>
+          </div>
+        </div></a>
+
+
+
+        <a href="#" ><img src="./assets/images/index/fw-4.png" alt="">
+          <div class="imgBigUp" id="imgBigUp4">
+          <div class="UpText">
+            <h4>[时空尽头] 户外创意气球求婚套餐</h4>
+            <p class="orange">￥21888起</p>
+            <p class="fz14">适合场景：气球、草坪、广场、公园</p>
+            <p class="fz14">开通地区：全国各地区、日韩、东南亚、欧美</p>
+          </div>
+        </div></a>
+
+
+    </div>
+    <button>查看更多</button>
+
+</div>
+
+<!--comment-->
+<div id="comment">
+
+  <div id="content" class="container">
+    <header>
+      <h1>客户评价</h1>
+    </header>
+    <div class="row">
+      <div *ngFor="let item of comments">
+        <img src="./../../assets/images/index/{{item.id}}" alt="">
+        <p>{{item.name}}</p>
+        <p>{{item.comment}}</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Tweet -->
+<div id="tweet">
+  <div class="container">
+    <section>
+      <h1>浪漫攻略</h1>
+      <blockquote>&ldquo;这个世界上最难的问题不是什么玄理论，黑洞，n维空间，而是我的女朋友到底在想些什么&rdquo;</blockquote>
+      <blockquote>&ldquo;她为什么生气？这句话是什么意思？这个问题该如何回答&rdquo;</blockquote>  <button>查看更多</button>
+    </section>
+  </div>
+
+</div>
+
+
+

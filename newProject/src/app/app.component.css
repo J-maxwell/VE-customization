@@ -1,0 +1,155 @@
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,router-outlet {
+  margin:0;
+  padding:0;
+}
+router-outlet{
+  width: 100%;
+}
+ul{
+  list-style: none;
+
+}
+li{
+  float:left;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+/*头部*/
+nav{
+
+  width: 100%;
+  /*margin:0 1%;*/
+  height: 70px;
+  background-color:grey;
+  opacity: 0.7;
+  /*padding-top: 20px;*/
+  box-sizing: border-box;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 999;
+}
+nav div{
+  font-size: 14px;
+  float: left;
+  width: 20%;
+  height: 100%;
+  line-height: 100%;
+  /*background-color: pink;*/
+  text-align: center;
+}
+nav a{
+  padding-top: 25px;
+
+}
+nav li a{
+  display: inline-block;
+  height: 100%;
+  line-height: 100%;
+  /*padding-top: 20px;*/
+
+}
+nav div a{
+  display: inline-block;
+  height: 100%;
+  line-height: 100%;
+
+}
+nav ul{
+  float: left;
+
+  width: 60%;
+  height: 100%;
+
+  /*background-color: blue;*/
+}
+nav li{
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  border-right:1px solid white;
+  box-sizing: border-box;
+}
+nav li:last-child{
+  border-right:1px solid transparent;
+}
+nav #login_regist a{
+  width: 25%;
+}
+
+
+/*footer*/
+/*{*/
+  /*margin-top: 1em;*/
+/*}*/
+#footer
+{
+
+  background-color: rgb(22,22,22);
+  position: relative;
+  text-align: center;
+}
+
+#footer header h2
+{
+  color: rgb(162,162,162);
+  font-size: 2.5em;
+  font-weight:lighter;
+}
+
+
+#footer
+{
+  padding: 6em 100px 50px;
+}
+footer section{
+  background-color: pink;
+  border-bottom: 1px solid rgb(162,162,162);
+
+}
+#footer ul{
+  width: 50%;
+  height: 20px;
+  /*background-color: yellow;*/
+  /*border: 1px solid white;*/
+  margin: 0 auto;
+}
+#footer li{
+  text-align: center;
+  width: 20%;
+
+  padding: 0px 20px;
+  box-sizing: border-box;
+  border-right: 1px solid rgb(162,162,162);
+  margin-top:30px;
+}
+#footer li a{
+  color: rgb(162,162,162);
+}
+#footer ul li:last-child{
+  border-right: 0px solid transparent;
+
+}
+#footer #icons{
+  margin-top:50px;
+  margin-bottom:60px;
+  width: 25%;
+  height: 80px;
+  /*background-color: yellow;*/
+
+}
+#footer #icons li{
+  border: 0px solid transparent;
+  width: 25%;
+}
+#footer .container{
+  border-bottom:1px solid rgb(38,38,38);
+
+}
+#footer #copyright{
+  margin-top: 50px;
+  color: #a2a2a2;
+  font-size: 14px;
+}
